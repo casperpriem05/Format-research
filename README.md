@@ -62,11 +62,7 @@ pip install numpy pandas zarr h5py netCDF4 pyarrow
    Ensure that your fiber `.npy` files are located in the same directory as the script or update the paths in the `fiber_files` list accordingly.
 
 2. **Run the Script:**  
-   Execute the script using Python:
-
-   ```bash
-   python your_script_name.py
-   ```
+   Execute the script in Jupyter with run all
 
 3. **Review Results:**  
    After the tests complete, the script prints a summary DataFrame showing the average write times, read times, individual run times, and file sizes for each format.
