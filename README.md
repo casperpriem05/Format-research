@@ -1,5 +1,3 @@
----
-
 # File Format Performance Benchmarking
 
 This repository contains a Python script that benchmarks the performance of various file storage formats when reading and writing sensor data. The script is designed to evaluate how different formats perform in terms of:
@@ -95,6 +93,3 @@ pip install numpy pandas zarr h5py netCDF4 pyarrow
 ## Conclusion
 
 This benchmarking script provides a robust framework to evaluate the trade-offs between various file formats in terms of speed, efficiency, and storage. It can be easily extended to test additional formats or further customized to fit specific project requirements.
-
-
----
